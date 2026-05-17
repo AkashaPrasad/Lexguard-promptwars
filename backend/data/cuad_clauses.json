@@ -1,0 +1,371 @@
+[
+  {
+    "id": 1,
+    "name": "Governing Law",
+    "description": "Specifies the jurisdiction and law that governs the contract.",
+    "risk_category": "Compliance",
+    "base_risk_score": 5,
+    "red_flags": ["foreign jurisdiction", "unfavorable state", "no governing law specified"],
+    "negotiation_tips": ["Negotiate for your home jurisdiction", "Avoid jurisdictions with unfavorable business laws"]
+  },
+  {
+    "id": 2,
+    "name": "Parties",
+    "description": "Identifies the entities entering into the agreement.",
+    "risk_category": "Operational",
+    "base_risk_score": 2,
+    "red_flags": ["undefined parties", "missing signatories", "affiliate inclusion without limitation"],
+    "negotiation_tips": ["Ensure all parties are clearly defined", "Limit affiliate scope"]
+  },
+  {
+    "id": 3,
+    "name": "Agreement Date",
+    "description": "The date the agreement is signed or entered into.",
+    "risk_category": "Operational",
+    "base_risk_score": 2,
+    "red_flags": ["retroactive effective date", "no date specified"],
+    "negotiation_tips": ["Ensure date is clearly specified", "Avoid retroactive obligations"]
+  },
+  {
+    "id": 4,
+    "name": "Effective Date",
+    "description": "The date from which the agreement takes effect.",
+    "risk_category": "Operational",
+    "base_risk_score": 3,
+    "red_flags": ["effective before signing", "ambiguous effective date"],
+    "negotiation_tips": ["Align effective date with readiness", "Avoid premature obligations"]
+  },
+  {
+    "id": 5,
+    "name": "Expiration Date",
+    "description": "The date when the contract expires.",
+    "risk_category": "Operational",
+    "base_risk_score": 4,
+    "red_flags": ["no expiration", "perpetual term", "automatic renewal without notice"],
+    "negotiation_tips": ["Include clear expiration", "Add notice requirements for renewal"]
+  },
+  {
+    "id": 6,
+    "name": "Renewal Term",
+    "description": "Terms governing contract renewal after expiration.",
+    "risk_category": "Operational",
+    "base_risk_score": 5,
+    "red_flags": ["automatic renewal", "long renewal periods", "price escalation on renewal"],
+    "negotiation_tips": ["Limit renewal periods", "Include opt-out rights", "Cap price increases"]
+  },
+  {
+    "id": 7,
+    "name": "Notice Period to Terminate Renewal",
+    "description": "Time required to notify the other party of intent not to renew.",
+    "risk_category": "Operational",
+    "base_risk_score": 5,
+    "red_flags": ["long notice periods", "notice period longer than renewal term", "no notice mechanism"],
+    "negotiation_tips": ["Keep notice period reasonable (30-60 days)", "Ensure clear notice mechanism"]
+  },
+  {
+    "id": 8,
+    "name": "Audit Rights",
+    "description": "Rights to audit the other party's records and compliance.",
+    "risk_category": "Compliance",
+    "base_risk_score": 4,
+    "red_flags": ["unlimited audit rights", "no cost allocation", "broad scope of audit"],
+    "negotiation_tips": ["Limit audit frequency", "Allocate audit costs", "Define audit scope"]
+  },
+  {
+    "id": 9,
+    "name": "Most Favored Nation",
+    "description": "Guarantees the party receives pricing/terms at least as favorable as others.",
+    "risk_category": "Financial",
+    "base_risk_score": 6,
+    "red_flags": ["broad MFN scope", "no carve-outs", "retroactive application"],
+    "negotiation_tips": ["Limit MFN to specific product/service categories", "Add carve-outs for promotional pricing"]
+  },
+  {
+    "id": 10,
+    "name": "Anti-Assignment",
+    "description": "Restricts or prohibits assignment of the contract to third parties.",
+    "risk_category": "Operational",
+    "base_risk_score": 6,
+    "red_flags": ["absolute prohibition on assignment", "change of control triggers", "no carve-out for affiliates"],
+    "negotiation_tips": ["Allow assignment to affiliates", "Include change of control carve-outs", "Require consent not to be unreasonably withheld"]
+  },
+  {
+    "id": 11,
+    "name": "IP Ownership Assignment",
+    "description": "Clause assigning intellectual property ownership to a party.",
+    "risk_category": "IP/Ownership",
+    "base_risk_score": 9,
+    "red_flags": ["assignment of all IP", "work-for-hire language", "pre-existing IP included", "no carve-outs"],
+    "negotiation_tips": ["Carve out pre-existing IP", "Limit assignment to project-specific work", "Retain license-back rights"]
+  },
+  {
+    "id": 12,
+    "name": "Joint IP Ownership",
+    "description": "Provisions for jointly owned intellectual property.",
+    "risk_category": "IP/Ownership",
+    "base_risk_score": 7,
+    "red_flags": ["no management mechanism", "unilateral licensing rights", "no accounting for profits"],
+    "negotiation_tips": ["Define management structure", "Require consent for licensing", "Include profit sharing provisions"]
+  },
+  {
+    "id": 13,
+    "name": "License Grant",
+    "description": "Grants a license to use intellectual property or technology.",
+    "risk_category": "IP/Ownership",
+    "base_risk_score": 5,
+    "red_flags": ["exclusive license without limitation", "sublicensing rights", "broad field of use"],
+    "negotiation_tips": ["Limit field of use", "Control sublicensing", "Include termination rights"]
+  },
+  {
+    "id": 14,
+    "name": "Non-Transferable License",
+    "description": "License that cannot be transferred or assigned to others.",
+    "risk_category": "IP/Ownership",
+    "base_risk_score": 4,
+    "red_flags": ["no transfer even to affiliates", "terminates on corporate restructuring"],
+    "negotiation_tips": ["Allow transfer to affiliates", "Include M&A carve-outs"]
+  },
+  {
+    "id": 15,
+    "name": "Affiliate License-Licensor",
+    "description": "License rights extended to licensor's affiliates.",
+    "risk_category": "IP/Ownership",
+    "base_risk_score": 5,
+    "red_flags": ["unlimited affiliate access", "no geographic restrictions", "broad definition of affiliate"],
+    "negotiation_tips": ["Define affiliates narrowly", "Add geographic restrictions", "Limit sublicensing"]
+  },
+  {
+    "id": 16,
+    "name": "Affiliate License-Licensee",
+    "description": "License rights extended to licensee's affiliates.",
+    "risk_category": "IP/Ownership",
+    "base_risk_score": 5,
+    "red_flags": ["competitors as affiliates", "unlimited expansion of licensed parties"],
+    "negotiation_tips": ["Define affiliates carefully", "Exclude competitors", "Require notice of affiliate use"]
+  },
+  {
+    "id": 17,
+    "name": "Unlimited/All-You-Can-Eat License",
+    "description": "License with no usage caps or restrictions on quantity.",
+    "risk_category": "Financial",
+    "base_risk_score": 6,
+    "red_flags": ["no usage restrictions", "flat fee with unlimited use", "no fair use policy"],
+    "negotiation_tips": ["Negotiate usage caps", "Include audit rights", "Define reasonable use"]
+  },
+  {
+    "id": 18,
+    "name": "Irrevocable or Perpetual License",
+    "description": "License that cannot be revoked or has no expiration.",
+    "risk_category": "IP/Ownership",
+    "base_risk_score": 7,
+    "red_flags": ["irrevocable license", "perpetual license", "no termination rights"],
+    "negotiation_tips": ["Add termination rights for breach", "Include sunset provisions", "Limit perpetual scope"]
+  },
+  {
+    "id": 19,
+    "name": "Source Code Escrow",
+    "description": "Provisions requiring source code to be held in escrow.",
+    "risk_category": "Operational",
+    "base_risk_score": 5,
+    "red_flags": ["no escrow arrangement", "outdated escrow", "no release triggers"],
+    "negotiation_tips": ["Require regular escrow updates", "Define release triggers clearly", "Use reputable escrow agent"]
+  },
+  {
+    "id": 20,
+    "name": "Post-Termination Services",
+    "description": "Services to be provided after the contract terminates.",
+    "risk_category": "Operational",
+    "base_risk_score": 5,
+    "red_flags": ["no transition assistance", "high cost post-termination services", "data deletion without backup"],
+    "negotiation_tips": ["Include transition assistance", "Cap post-termination costs", "Ensure data portability"]
+  },
+  {
+    "id": 21,
+    "name": "Covenant Not to Sue",
+    "description": "Agreement not to initiate legal action against the other party.",
+    "risk_category": "Compliance",
+    "base_risk_score": 7,
+    "red_flags": ["broad scope", "covers future claims", "no carve-outs for fraud"],
+    "negotiation_tips": ["Limit scope and duration", "Carve out fraud and intentional misconduct", "Include reciprocity"]
+  },
+  {
+    "id": 22,
+    "name": "Non-Compete",
+    "description": "Restricts a party from competing with the other party.",
+    "risk_category": "Employment",
+    "base_risk_score": 9,
+    "red_flags": ["broad geographic scope", "long duration (>1 year)", "no compensation", "worldwide scope"],
+    "negotiation_tips": ["Limit geographic scope", "Cap duration at 6-12 months", "Negotiate compensation", "Narrow industry definition"]
+  },
+  {
+    "id": 23,
+    "name": "Exclusivity",
+    "description": "Grants exclusive rights to one party in a particular market or area.",
+    "risk_category": "Operational",
+    "base_risk_score": 7,
+    "red_flags": ["unlimited exclusivity", "no performance milestones", "long exclusivity period"],
+    "negotiation_tips": ["Tie exclusivity to performance metrics", "Include step-down provisions", "Limit geographic scope"]
+  },
+  {
+    "id": 24,
+    "name": "No-Solicit of Customers",
+    "description": "Prohibits solicitation of the other party's customers.",
+    "risk_category": "Employment",
+    "base_risk_score": 6,
+    "red_flags": ["broad definition of customers", "long duration", "worldwide scope"],
+    "negotiation_tips": ["Limit to active customers", "Cap duration at 12-18 months", "Define customers narrowly"]
+  },
+  {
+    "id": 25,
+    "name": "No-Solicit of Employees",
+    "description": "Prohibits solicitation or hiring of the other party's employees.",
+    "risk_category": "Employment",
+    "base_risk_score": 6,
+    "red_flags": ["broad employee scope", "long duration", "no carve-out for general advertising"],
+    "negotiation_tips": ["Limit to key employees", "Cap duration at 12 months", "Allow general advertising"]
+  },
+  {
+    "id": 26,
+    "name": "Non-Disparagement",
+    "description": "Prohibits making negative statements about the other party.",
+    "risk_category": "Operational",
+    "base_risk_score": 5,
+    "red_flags": ["covers truthful statements", "no carve-out for legal proceedings", "indefinite duration"],
+    "negotiation_tips": ["Limit to false statements", "Include carve-outs for legal proceedings", "Cap duration"]
+  },
+  {
+    "id": 27,
+    "name": "Liquidated Damages",
+    "description": "Pre-agreed damages amount for breach of specific obligations.",
+    "risk_category": "Financial",
+    "base_risk_score": 8,
+    "red_flags": ["excessive amounts", "no cap", "triggered by minor breaches", "cumulative penalties"],
+    "negotiation_tips": ["Negotiate reasonable amounts", "Cap total liquidated damages", "Limit triggers to material breach"]
+  },
+  {
+    "id": 28,
+    "name": "Uncapped Liability",
+    "description": "No limitation on the amount of damages a party may be liable for.",
+    "risk_category": "Financial",
+    "base_risk_score": 10,
+    "red_flags": ["no liability cap", "unlimited consequential damages", "no mutual limitation"],
+    "negotiation_tips": ["Always negotiate a liability cap", "Mutual limitation preferred", "Carve out insurance-backed risks"]
+  },
+  {
+    "id": 29,
+    "name": "Cap on Liability",
+    "description": "Limits the maximum amount of damages a party may owe.",
+    "risk_category": "Financial",
+    "base_risk_score": 5,
+    "red_flags": ["cap too low", "asymmetric caps", "excludes certain damage types from cap"],
+    "negotiation_tips": ["Ensure cap is commensurate with contract value", "Negotiate mutual caps", "Include IP and confidentiality in cap"]
+  },
+  {
+    "id": 30,
+    "name": "Price Restrictions",
+    "description": "Limits on pricing changes or price flexibility.",
+    "risk_category": "Financial",
+    "base_risk_score": 6,
+    "red_flags": ["no price increase caps", "unilateral price changes", "no renegotiation rights"],
+    "negotiation_tips": ["Cap annual price increases", "Require advance notice of changes", "Include renegotiation triggers"]
+  },
+  {
+    "id": 31,
+    "name": "Minimum Commitment",
+    "description": "Requires a minimum purchase volume or spend.",
+    "risk_category": "Financial",
+    "base_risk_score": 7,
+    "red_flags": ["high minimum with no flexibility", "shortfall penalties", "no force majeure carve-out"],
+    "negotiation_tips": ["Negotiate realistic minimums", "Include ramp-up periods", "Add force majeure relief"]
+  },
+  {
+    "id": 32,
+    "name": "Volume Restriction",
+    "description": "Limits on the volume of goods/services that can be purchased or sold.",
+    "risk_category": "Operational",
+    "base_risk_score": 5,
+    "red_flags": ["overly restrictive caps", "no flexibility for business growth", "penalties for exceeding limits"],
+    "negotiation_tips": ["Negotiate realistic caps", "Include expansion options", "Avoid penalties for exceeding limits"]
+  },
+  {
+    "id": 33,
+    "name": "Revenue/Profit Sharing",
+    "description": "Provisions for sharing revenue or profits between parties.",
+    "risk_category": "Financial",
+    "base_risk_score": 7,
+    "red_flags": ["unfavorable split", "no audit rights", "broad definition of revenue"],
+    "negotiation_tips": ["Define revenue clearly", "Negotiate favorable split", "Include audit rights"]
+  },
+  {
+    "id": 34,
+    "name": "Change of Control",
+    "description": "Provisions triggered when ownership or control of a party changes.",
+    "risk_category": "Operational",
+    "base_risk_score": 7,
+    "red_flags": ["automatic termination on change of control", "no assignment rights on M&A", "broad definition of control change"],
+    "negotiation_tips": ["Negotiate assignment rights in M&A", "Limit change of control triggers", "Include cure periods"]
+  },
+  {
+    "id": 35,
+    "name": "Anti-Corruption",
+    "description": "Provisions requiring compliance with anti-corruption and bribery laws.",
+    "risk_category": "Compliance",
+    "base_risk_score": 6,
+    "red_flags": ["no compliance certification", "inadequate representations", "no audit rights"],
+    "negotiation_tips": ["Include mutual representations", "Add audit rights", "Define compliance standards clearly"]
+  },
+  {
+    "id": 36,
+    "name": "Warranty Duration",
+    "description": "The length of time warranties are in effect.",
+    "risk_category": "Operational",
+    "base_risk_score": 4,
+    "red_flags": ["short warranty period", "warranty period less than industry standard", "no remedy for warranty breach"],
+    "negotiation_tips": ["Negotiate adequate warranty period", "Define remedies for breach", "Match warranty to product lifecycle"]
+  },
+  {
+    "id": 37,
+    "name": "Product Warranty",
+    "description": "Guarantees regarding product quality, performance, or fitness.",
+    "risk_category": "Operational",
+    "base_risk_score": 5,
+    "red_flags": ["as-is disclaimer", "exclusion of implied warranties", "no fitness for purpose warranty"],
+    "negotiation_tips": ["Include fitness for purpose warranty", "Negotiate meaningful remedies", "Avoid blanket disclaimers"]
+  },
+  {
+    "id": 38,
+    "name": "Insurance",
+    "description": "Requirements for insurance coverage and naming as additional insured.",
+    "risk_category": "Financial",
+    "base_risk_score": 5,
+    "red_flags": ["no insurance requirements", "inadequate coverage amounts", "no additional insured status"],
+    "negotiation_tips": ["Require adequate coverage", "Request additional insured status", "Include certificates of insurance"]
+  },
+  {
+    "id": 39,
+    "name": "Termination for Convenience",
+    "description": "Right to terminate the contract without cause.",
+    "risk_category": "Termination",
+    "base_risk_score": 7,
+    "red_flags": ["unilateral termination right", "no notice period", "no compensation on termination", "asymmetric rights"],
+    "negotiation_tips": ["Negotiate mutual termination rights", "Include reasonable notice period", "Require payment for work done"]
+  },
+  {
+    "id": 40,
+    "name": "GDPR/Data Privacy",
+    "description": "Provisions governing the handling of personal data and privacy compliance.",
+    "risk_category": "Privacy",
+    "base_risk_score": 8,
+    "red_flags": ["no data processing agreement", "unclear data ownership", "broad data sharing rights", "no breach notification"],
+    "negotiation_tips": ["Include DPA", "Define data ownership clearly", "Require breach notification within 72 hours", "Limit data sharing"]
+  },
+  {
+    "id": 41,
+    "name": "Arbitration",
+    "description": "Requires disputes to be resolved through arbitration rather than courts.",
+    "risk_category": "Compliance",
+    "base_risk_score": 6,
+    "red_flags": ["binding arbitration waiving class action", "expensive arbitration venue", "no carve-out for IP disputes", "unfavorable arbitration rules"],
+    "negotiation_tips": ["Negotiate venue and rules", "Retain right to seek injunctive relief", "Consider mediation first", "Limit scope of arbitration"]
+  }
+]

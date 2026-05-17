@@ -1,0 +1,58 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of January 1, 2024 ("Agreement Date"), by and between:
+
+TechCorp Solutions Inc., a Delaware corporation with its principal place of business at 1000 Innovation Drive, San Francisco, CA 94102 ("Party A"), and
+
+GlobalVentures Ltd., a Cayman Islands company with its principal place of business at Suite 100, 200 Business Park, London, UK EC1A 1BB ("Party B").
+
+WHEREAS, the parties wish to explore a potential business relationship and may disclose certain confidential information to each other for the purpose of evaluating such relationship ("Purpose").
+
+1. CONFIDENTIALITY OBLIGATIONS
+
+Each party agrees to hold in strict confidence all Confidential Information received from the other party. "Confidential Information" means any and all technical, financial, business, and other information disclosed by either party, whether oral, written, or in any other form, that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and circumstances of disclosure. This obligation of confidentiality shall survive termination of this Agreement for a period of ten (10) years.
+
+2. INTELLECTUAL PROPERTY ASSIGNMENT
+
+Party B hereby irrevocably assigns, transfers, and conveys to Party A all right, title, and interest in and to any and all inventions, developments, improvements, works of authorship, and other intellectual property ("Work Product") created, conceived, or developed by Party B in connection with or arising out of the Purpose, including all pre-existing intellectual property of Party B that becomes incorporated into any Work Product. This assignment is worldwide, perpetual, and irrevocable. Party B waives all moral rights with respect to such Work Product.
+
+3. NON-COMPETE CLAUSE
+
+Party B agrees that during the term of this Agreement and for a period of five (5) years following its termination, Party B shall not, directly or indirectly, anywhere in the world, engage in, own, manage, operate, control, be employed by, provide services to, participate in, or be connected with any business or enterprise that competes with Party A's business in any way, including but not limited to any business that develops, markets, sells, or distributes software, technology products, or consulting services. This restriction applies to all markets in which Party A operates or plans to operate.
+
+4. GOVERNING LAW AND DISPUTE RESOLUTION
+
+This Agreement shall be governed by the laws of the State of California, without regard to conflicts of law principles. Any dispute, controversy, or claim arising out of or relating to this Agreement shall be finally settled by binding arbitration under the rules of the American Arbitration Association (AAA) in San Francisco, California. The parties waive any right to a jury trial and agree that the arbitration shall be conducted on an individual basis and not as a class, collective, or representative action. The arbitration award shall be final and binding and may be entered as a judgment in any court of competent jurisdiction. The cost of arbitration shall be borne equally by the parties.
+
+5. TERMINATION FOR CONVENIENCE
+
+Either party may terminate this Agreement at any time, for any reason or no reason, without notice and without compensation or liability to the other party. Upon termination, the receiving party shall promptly return or destroy all Confidential Information of the disclosing party, without retaining any copies, extracts, or summaries thereof, unless required by applicable law.
+
+6. NON-SOLICITATION OF EMPLOYEES
+
+During the term of this Agreement and for a period of three (3) years following its termination, neither party shall, directly or indirectly, solicit, recruit, hire, or encourage any employee, contractor, or consultant of the other party to terminate their relationship with such party or to join the soliciting party. This restriction applies worldwide and covers all employees of each party globally.
+
+7. LIQUIDATED DAMAGES
+
+The parties acknowledge and agree that the damages resulting from a breach of the confidentiality obligations contained herein would be difficult to ascertain and that the following liquidated damages represent a reasonable estimate of such damages. In the event of any breach of Section 1 (Confidentiality Obligations), the breaching party shall pay the non-breaching party liquidated damages in the amount of $5,000,000 (five million US dollars) per breach, in addition to any other remedies available at law or equity. Such amounts shall not be subject to any limitation of liability.
+
+8. UNCAPPED LIABILITY
+
+Notwithstanding any other provision of this Agreement, each party's liability to the other for any breach of this Agreement, including but not limited to breaches of confidentiality, IP assignment obligations, or non-compete obligations, shall be unlimited and shall not be subject to any cap, limitation, or exclusion of any kind, including but not limited to limitations on consequential, incidental, special, or punitive damages. Each party acknowledges that the obligations hereunder are of such critical importance that unlimited liability is warranted.
+
+9. DATA PRIVACY
+
+To the extent any Confidential Information includes personal data subject to applicable data protection laws, including the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), the receiving party agrees to process such personal data only for the Purpose and in accordance with applicable law. The parties acknowledge that each may act as an independent data controller with respect to personal data shared hereunder. Party B grants Party A the right to share, sell, license, and otherwise transfer any personal data received from Party B to any third parties globally for any business purpose, without restriction or additional consent.
+
+10. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties with respect to its subject matter and supersedes all prior and contemporaneous agreements, representations, and understandings. This Agreement may not be amended except by a written instrument signed by both parties. If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+TECHCORP SOLUTIONS INC.                    GLOBALVENTURES LTD.
+
+By: _______________________               By: _______________________
+Name: John Smith                          Name: Sarah Johnson
+Title: Chief Executive Officer            Title: Managing Director
+Date: January 1, 2024                    Date: January 1, 2024
